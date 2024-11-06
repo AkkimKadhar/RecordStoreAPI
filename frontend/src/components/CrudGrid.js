@@ -147,11 +147,11 @@ export default function FullFeaturedCrudGrid() {
     },
     {
       field: 'role',
-      headerName: 'Department',
+      headerName: 'Designation',
       width: 220,
       editable: true,
       type: 'singleSelect',
-      valueOptions: ['Market', 'Finance', 'Development'],
+      valueOptions: ['Python Developer', 'Java Developer', 'FullStack Developer'],
     },
     {
       field: 'actions',
